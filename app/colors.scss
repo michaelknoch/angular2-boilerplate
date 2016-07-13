@@ -1,0 +1,32 @@
+$white: rgba(255, 255, 255, 0.7);
+$grey: #eaeaea;
+$yellow: #ecc64b;
+$blue: #4593c1;
+$cyan: #079aa2;
+$asphalt: #262626;
+$darkgrey: #4B4B4B;
+$green: #27ae60;
+$red: #e74c3c;
+
+$green_opac: rgba(39, 174, 96, 0.2);
+$red_opac: rgba(231, 76, 60, 0.2);
+
+.blue {
+    color: $blue;
+}
+
+.cyan {
+    color: $cyan;
+}
+
+.green {
+    color: $green;
+}
+
+.yellow {
+    color: $yellow;
+}
+
+.red {
+    color: $red;
+}

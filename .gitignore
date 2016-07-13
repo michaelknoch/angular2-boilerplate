@@ -1,0 +1,11 @@
+node_modules/
+bower_components/
+.idea
+typings
+dist/**/*
+coverage
+.env
+npm-debug.log
+
+production/**/*
+!production/index.html

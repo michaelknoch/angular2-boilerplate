@@ -1,0 +1,73 @@
+@import '../../colors';
+
+.login-container {
+    min-height: 100vh;
+    z-index: 10;
+}
+
+.background-wrapper {
+    background-image: url('dist/assets/img/login_back.jpeg');
+    background-size: cover;
+
+    animation-name: fadecolor;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@keyframes fadecolor {
+    0% {
+        opacity: 0;
+        -webkit-filter: grayscale(50%);
+        filter: grayscale(50%);
+    }
+    50% {
+        opacity: 0.3;
+        -webkit-filter: grayscale(20%);
+        filter: grayscale(20%);
+    }
+    100% {
+        opacity: 0.5;
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+}
+
+.form-wrapper {
+    position: absolute;
+    width: 350px;
+    left: 30%;
+    margin-left: -195px;
+    padding: 23px;
+
+    img.logo {
+
+        width: 304px;
+        height: 128px;
+
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    animation-name: fadein;
+    animation-duration: 1.3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+
+@keyframes fadein {
+    0%, 20% {
+        top: -200%;
+        opacity: 0;
+    }
+    100% {
+        top: 30%;
+        opacity: 1;
+    }
+}
