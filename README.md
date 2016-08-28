@@ -1,5 +1,8 @@
 # angular2-boilerplate
 
+Simple angular2-boilerplate
+
+
 # How to start
 
 **clone repo and install dependencies**
